@@ -1,11 +1,22 @@
+import BackgroundGradient from "@/components/ui/landing/background-gradient";
+import CtaSection from "@/components/ui/landing/cta-section";
+import FeaturesSection from "@/components/ui/landing/features-section";
+import HeroSection from "@/components/ui/landing/hero-section";
+import HowItWorksSection from "@/components/ui/landing/how-it-works-section";
 import { PricingTable } from "@clerk/nextjs";
 
 
 export default function Home() {
   return (
-    <div >
-      <h1>Heloooo Next.js</h1>
-      <PricingTable/>
+    <div className="relative min-h-screen">
+      <BackgroundGradient/>
+      <div className="relative-z-10">
+        <HeroSection/>
+        <FeaturesSection/>
+        <HowItWorksSection/>
+        <PricingTable/>
+        <CtaSection/>
+      </div>
     </div>
   );
 }

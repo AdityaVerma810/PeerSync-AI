@@ -4,6 +4,7 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import Header from "@/components/ui/layout/header";
 import HeaderWrapper from "@/components/ui/layout/header-wrapper"
+import Footer from "@/components/ui/layout/footer";
 
 const outfitFont = Outfit({
   
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
        <HeaderWrapper />
         {children}
+        <Footer/>
       </body>
     </html>
     </ClerkProvider>
