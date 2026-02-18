@@ -1,4 +1,5 @@
-import BackgroundGradient from "@/components/ui/landing/background-gradient";
+
+import { BackgroundGradient } from "@/components/ui/landing/background-gradient";
 import CtaSection from "@/components/ui/landing/cta-section";
 import FeaturesSection from "@/components/ui/landing/features-section";
 import HeroSection from "@/components/ui/landing/hero-section";
