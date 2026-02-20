@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { HeroGradient } from "./background-gradient";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { MotionDiv } from "../layout/motion-div";
 
 
 export default function HeroSection() {
@@ -24,7 +25,13 @@ export default function HeroSection() {
             together with AI-powered insights.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-            
+            <MotionDiv
+              initial={{ opacity: 0, y: 20 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              animate={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
               <Link href="/sign-up">
                 <Button
                   size="lg"
@@ -38,7 +45,15 @@ export default function HeroSection() {
                   </span>
                 </Button>
               </Link>
-            
+            </MotionDiv>
+
+            <MotionDiv
+              initial={{ opacity: 0, y: 20 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              animate={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.08, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+            >
            
               <Link href="/#pricing">
                 <Button
@@ -51,7 +66,7 @@ export default function HeroSection() {
                   </span>
                 </Button>
               </Link>
-            
+            </MotionDiv>
           </div>
         </div>
       </div>
