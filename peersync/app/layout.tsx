@@ -5,6 +5,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import Header from "@/components/ui/layout/header";
 import HeaderWrapper from "@/components/ui/layout/header-wrapper"
 import Footer from "@/components/ui/layout/footer";
+import { QueryProvider } from "@/components/providers/query-provider";
 
 const outfitFont = Outfit({
   
@@ -30,9 +31,11 @@ export default function RootLayout({
       <body
         className={`${outfitFont.className} antialiased`}
       >
+      <QueryProvider> 
        <HeaderWrapper />
         {children}
         <Footer/>
+      </QueryProvider>  
       </body>
     </html>
     </ClerkProvider>
