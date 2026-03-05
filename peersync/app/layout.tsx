@@ -6,6 +6,7 @@ import Header from "@/components/ui/layout/header";
 import HeaderWrapper from "@/components/ui/layout/header-wrapper"
 import Footer from "@/components/ui/layout/footer";
 import { QueryProvider } from "@/components/providers/query-provider";
+import { Toaster } from "@/components/ui/sonner";
 
 const outfitFont = Outfit({
   
@@ -35,7 +36,8 @@ export default function RootLayout({
        <HeaderWrapper />
         {children}
         <Footer/>
-      </QueryProvider>  
+      </QueryProvider> 
+       <Toaster/>
       </body>
     </html>
     </ClerkProvider>
