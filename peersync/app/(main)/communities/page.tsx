@@ -1,6 +1,6 @@
 "use client";
 
-import AddLearningGoal from "@/components/communities/add-learning-goal";
+import AddLearningGoal from "@/components/communities/add-learning-goals";
 import AIMatching from "@/components/communities/ai-matching";
 import { Button } from "@/components/ui/button";
 import {
