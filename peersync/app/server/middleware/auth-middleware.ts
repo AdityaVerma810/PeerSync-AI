@@ -1,10 +1,10 @@
-
+import { getOrCreateUserByClerkId } from "@/lib/user-utils";
 import { Context, Next } from "hono";
 import { HTTPException } from "hono/http-exception";
 
 type AuthVariables = {
   userId: string;
-  
+  user: NonNullable<Awaited<ReturnType<typeof getOrCreateUserByClerkId>>>;
 };
 
 export const authMiddleware = async (
