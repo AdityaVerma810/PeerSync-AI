@@ -128,7 +128,10 @@ Example: [2, 5, 1] means partner #2 is the best match, then #5, then #1.
 
 Only return an empty array [] if there are truly NO partners with any related learning interests.`;
 
-    const { text } = await generateText({
+    
+
+
+const { text } = await generateText({
       model: openai("gpt-4o-mini"),
       prompt,
     });
@@ -214,9 +217,9 @@ export const generateAISummaries = async (
   //prompt for the AI to generate a summary of the conversation
   const prompt = `You are an AI assistant that summarizes learning conversations between matched learning partners.
 
-Analyze the following conversation and provide:
-1. A concise summary of what was discussed
-2. Key points and insights shared
+Analyze the following conversation and provide the following:
+1. A concise summary of what was discussed in the message 
+2. Key points and insights shared int the message 
 3. Action items mentioned in the conversation
 4. Next steps for the learning partners
 
