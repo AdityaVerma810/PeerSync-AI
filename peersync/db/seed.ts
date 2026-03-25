@@ -57,8 +57,8 @@ const proUsers = [
   },
   {
     clerkId: "pro_002_temp",
-    email: "kulkarni.ankita09@gmail.com",
-    name: "Ankita K",
+    email: "AdityaVerma@gmail.com",
+    name: "Aditya Verma",
     subscriptionTier: "pro",
   },
   {
@@ -136,9 +136,9 @@ const communitiesData = [
       "Transition from senior developer to tech lead and engineering manager",
   },
   {
-    name: "Ankita's Youtube Community",
+    name: "Aditya Verma's Youtube Community",
     description:
-      "Community for Ankita's YouTube channel followers - learn web development, coding tips, and career advice",
+      "Community for Aditya's YouTube channel followers - learn web development, coding tips, and career advice",
   },
   {
     name: "Python for Data Science",
@@ -203,7 +203,7 @@ const learningGoalsData = {
         "Foster a culture of learning, collaboration, and excellence",
     },
   ],
-  "Ankita's Youtube Community": [
+  "Aditya's Youtube Community": [
     {
       title: "Modern web development fundamentals",
       description: "Master HTML, CSS, JavaScript, and modern frameworks",
@@ -218,7 +218,7 @@ const learningGoalsData = {
     },
     {
       title: "Content creation tips",
-      description: "Learn from Ankita's experience creating tech content",
+      description: "Learn from Aditya's experience creating tech content",
     },
   ],
   "Python for Data Science": [
@@ -286,11 +286,11 @@ const freeUserAssignments = {
     goal: "Next.js App Router & Server Components",
   },
   "Free User Two": {
-    community: "Ankita's Youtube Community",
+    community: "Aditya's Youtube Community",
     goal: "Modern web development fundamentals",
   },
   "Free User Three": {
-    community: "Ankita's Youtube Community",
+    community: "Aditya's Youtube Community",
     goal: "Building real-world projects",
   },
   "Free User Four": {
@@ -307,17 +307,17 @@ const freeUserAssignments = {
 const proUserCommunityAssignments = {
   "Aditya Verma": [
     "Modern Full Stack Next.js Course",
-    "Ankita's Youtube Community",
+    "Aditya's Youtube Community",
     "Developer to Leader",
   ],
-  "Ankita K": [
+  "Aditya V": [
     "Modern Full Stack Next.js Course",
-    "Ankita's Youtube Community",
+    "Aditya's Youtube Community",
     "AI & Machine Learning",
   ],
   "Emma Chen (Pro)": [
     "Modern Full Stack Next.js Course",
-    "Ankita's Youtube Community",
+    "Aditya's Youtube Community",
     "AI & Machine Learning",
   ],
   "Marcus Johnson (Pro)": [
@@ -328,7 +328,7 @@ const proUserCommunityAssignments = {
   "Sofia Rodriguez (Pro)": [
     "Modern Full Stack Next.js Course",
     "Developer to Leader",
-    "Ankita's Youtube Community",
+    "Aditya's Youtube Community",
   ],
   "David Kim (Pro)": [
     "Python for Data Science",
@@ -342,7 +342,7 @@ const proUserCommunityAssignments = {
   ],
   "Aisha Patel (Pro)": [
     "Modern Full Stack Next.js Course",
-    "Ankita's Youtube Community",
+    "Aditya's Youtube Community",
     "Developer to Leader",
   ],
   "Lucas Martinez (Pro)": [
@@ -352,7 +352,7 @@ const proUserCommunityAssignments = {
   ],
   "Maya Anderson (Pro)": [
     "AI & Machine Learning",
-    "Ankita's Youtube Community",
+    "Aditya's Youtube Community",
     "Modern Full Stack Next.js Course",
   ],
   "Alex Taylor (Pro)": [
@@ -362,7 +362,7 @@ const proUserCommunityAssignments = {
   ],
   "Nina Silva (Pro)": [
     "Modern Full Stack Next.js Course",
-    "Ankita's Youtube Community",
+    "Aditya's Youtube Community",
     "Developer to Leader",
   ],
 };
@@ -374,7 +374,7 @@ const proUserGoalAssignments = {
       "Database integration with Drizzle ORM",
       "Authentication with Clerk",
     ],
-    "Ankita's Youtube Community": [
+    "Aditya's Youtube Community": [
       "Modern web development fundamentals",
       "Building real-world projects",
       "Content creation tips",
@@ -384,12 +384,12 @@ const proUserGoalAssignments = {
       "Team communication",
     ],
   },
-  "Ankita K": {
+  "Aditya V": {
     "Modern Full Stack Next.js Course": [
       "TypeScript best practices",
       "Deployment & CI/CD",
     ],
-    "Ankita's Youtube Community": [
+    "Aditya's Youtube Community": [
       "Building real-world projects",
       "Career growth & job hunting",
     ],
@@ -429,7 +429,7 @@ const proUserGoalAssignments = {
       "Team communication",
       "Building engineering culture",
     ],
-    "Ankita's Youtube Community": [
+    "Aditya's Youtube Community": [
       "Modern web development fundamentals",
       "Career growth & job hunting",
     ],
@@ -461,7 +461,7 @@ const proUserGoalAssignments = {
       "Database integration with Drizzle ORM",
       "Authentication with Clerk",
     ],
-    "Ankita's Youtube Community": [
+    "Aditya's Youtube Community": [
       "Building real-world projects",
       "Content creation tips",
     ],
@@ -480,7 +480,7 @@ const proUserGoalAssignments = {
   },
   "Maya Anderson (Pro)": {
     "AI & Machine Learning": ["Computer Vision basics", "TensorFlow and Keras"],
-    "Ankita's Youtube Community": [
+    "Aditya's Youtube Community": [
       "Modern web development fundamentals",
       "Building real-world projects",
     ],
@@ -495,7 +495,7 @@ const proUserGoalAssignments = {
       "Authentication with Clerk",
       "TypeScript best practices",
     ],
-    "Ankita's Youtube Community": [
+    "Aditya's Youtube Community": [
       "Building real-world projects",
       "Career growth & job hunting",
     ],
@@ -681,7 +681,7 @@ async function comprehensiveSeed() {
       [
         "Sofia Rodriguez (Pro)",
         "Aisha Patel (Pro)",
-        "Ankita's Youtube Community",
+        "Aditya's Youtube Community",
       ],
       ["David Kim (Pro)", "Maya Anderson (Pro)", "AI & Machine Learning"],
       ["James Wilson (Pro)", "Lucas Martinez (Pro)", "Cloud & DevOps"],
@@ -689,7 +689,7 @@ async function comprehensiveSeed() {
       ["Marcus Johnson (Pro)", "James Wilson (Pro)", "Cloud & DevOps"],
       ["Nina Silva (Pro)", "Sofia Rodriguez (Pro)", "Developer to Leader"],
       ["Alex Taylor (Pro)", "Lucas Martinez (Pro)", "Cloud & DevOps"],
-      ["Aditya Verma", "Ankita K", "Ankita's Youtube Community"],
+      ["Aditya Verma", "Aditya V", "Aditya's Youtube Community"],
 
       // FREE to PRO matches (showing FREE users can match within limits)
       ["Free User One", "Emma Chen (Pro)", "Modern Full Stack Next.js Course"],
@@ -864,14 +864,14 @@ async function comprehensiveSeed() {
     );
     console.log("\n💡 YOUR ACCOUNTS (PRO):");
     console.log("   • aditya2004@gmai.com");
-    console.log("   • kulkarni.ankita09@gmail.com");
+    console.log("   • adityaVerma810@gmail.com");
     console.log("\n💡 OTHER TEST ACCOUNTS:");
     console.log("   • free1@email.com (FREE)");
     console.log("   • emma.chen@email.com (PRO)\n");
     console.log("🏘️  COMMUNITIES:");
     console.log("   • Modern Full Stack Next.js Course");
     console.log("   • Developer to Leader");
-    console.log("   • Ankita's Youtube Community");
+    console.log("   • Aditya's Youtube Community");
     console.log("   • Python for Data Science");
     console.log("   • AI & Machine Learning");
     console.log("   • Cloud & DevOps\n");
