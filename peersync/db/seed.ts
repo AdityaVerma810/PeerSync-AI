@@ -136,7 +136,7 @@ const communitiesData = [
       "Transition from senior developer to tech lead and engineering manager",
   },
   {
-    name: "Aditya Verma's Youtube Community",
+    name: "Aditya's Youtube Community",
     description:
       "Community for Aditya's YouTube channel followers - learn web development, coding tips, and career advice",
   },
