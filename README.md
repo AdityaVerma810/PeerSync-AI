@@ -1,14 +1,14 @@
 # 🚀 PeerSync AI  
 ### An AI-powered community learning platform to find the perfect study partners and grow together
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://peer-sync-ai-drmt.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/AdityaVerma810/PeerSync-AI)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AdityaVerma810/PeerSync-AI/main/peersync/public/preview.png" width="100%" />
+</p>
+### 🔗 [Live Demo](https://peer-sync-ai-drmt.vercel.app/) | [GitHub Repository](https://github.com/AdityaVerma810/PeerSync-AI/tree/main/peersync)
 
 ---
 **PeerSync AI** is a smart learning platform that helps learners connect with compatible peers based on their goals, interests, and learning styles. It goes beyond simple matching by using AI to create meaningful learning collaborations and track progress effectively.
 An AI-powered community learning platform to find the perfect study partners and grow together
 
-PeerSync AI is a smart learning platform that helps learners connect with compatible peers based on their goals, interests, and learning styles. It goes beyond simple matching by using AI to create meaningful learning collaborations and track progress effectively.
 
 ⚡ Features
 🛠️ Tech Stack
